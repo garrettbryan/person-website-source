@@ -1,0 +1,12 @@
+---
+title: Aluminum Alloy Shrink Test
+url: 35.html
+id: 35
+categories:
+  - Metal Casting
+  - Uncategorized
+date: 2012-07-05 12:16:56
+tags:
+---
+
+[Al Alloy Shrink Test Data](http://outlyingoutlier.files.wordpress.com/2012/07/shrink_rule_al1.pdf) \[caption id="attachment_48" align="aligncenter" width="300"\][![](http://outlyingoutlier.files.wordpress.com/2012/07/al_shrink_test_chart.jpg?w=300 "Aluminum Shrink Test Chart")](http://outlyingoutlier.files.wordpress.com/2012/07/al_shrink_test_chart.jpg) Graph comparing the measurements of the pattern to the casting.\[/caption\] I finally finished the report on my aluminum alloy shrinkage test. Check out the PDF. I'll just give a quick summary here. This Generic pattern can be used for all alloy shrink tests (see the stl [here](http://www.thingiverse.com/thing:26304) ). It has a draft angle of 7 degrees. Unfortunately I was unable to determine the alloy's specific composition. It is primarily composed of aluminum extrusions, the degassing agent was calcium chloride from a pool chlorine tablet (I do not recommend this as the Cl gas generated can be dangerous),and the crucible was made of steel. So I'm guessing the alloy has some calcium and iron in it. But I'm not sure how the various elements interacted with each other upon cooling. My guess is that the casting is primarily a solid solution. I think this will be a common casting alloy, due to it's relative ease of acquiring, researching the material properties will be important in the future. After comparing the various dimensions, I determined the shrinkage to be 1.46%. I can now increase the size of my 3D printed patterns by 1.46% and when the metal cools the object will shrink to the desired size. One of my next postings I'll analyze a castings dimensions to determine how close to the target the casting is and to verify the shrinkage rate is somewhat constant even though my aluminum casting alloy changes composition slightly from melt to melt. In the pdf, i included two shrink rates posted from other websites for aluminum castings. I'm not sure of the accuracy of their numbers; however, my values fell approximately in between theirs.

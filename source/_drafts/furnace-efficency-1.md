@@ -1,0 +1,10 @@
+---
+title: Furnace Efficency and Power Requirements
+url: 450.html
+id: 450
+categories:
+  - OSMF
+tags:
+---
+
+In any heat transfer system there is always input energy, output energy, and work e.g. mechanical energy. This is the second law of thermodynamics, i.e. entropy always increases. The work I'm interested in is the heating of the mass of metal, and the efficiency of that process. The efficiency claim of about 30% for industry is made by the writers of the "[Improving Energy Efficiency in Aluminum Melting](http://www.phinix.net/services/Energy_Management/Improving_Energy_Efficiency.pdf)" paper, and an early furnace of mine was about 2% efficient, the efficiency average of these two extremes is 16%. I'm going to weight the 2% more and use 9% efficiency as a starting point. For all fuel burned only 9% of the released energy contributes to the melting of the metal. the OSMF ideal volume is $latex 8000$ $latex cm^3$. Density of aluminum is $latex 2.67112$  $latex (\\frac{g}{cm^3})$. Therefore the total mass of aluminum is: $latex m_{al} = \\rho \\times v$ then $latex 2.67112$  $latex (\\frac{g}{cm^3}) \\times$ $latex 8000$ $latex cm^3$ $latex = 21.368kg$. The internal Energy of 1kg of Aluminum at the pour temp is [1149 kJ](http://outlyingoutlier.com/2014/03/04/the-thermal-energy-of-a-chunk-of-hot-metal/), therefore the total internal energy of our max pour is: $latex U_{Al} = 1149 (\\frac{kJ}{kg}) \\times 21.368 kg = 24.551832 MJ$ Because my furnace is only 9% efficient we need to find the total energy needed: $latex U_{total} \\times 0.09 = 24.551832 MJ$ Divide by 9%: $latex U_{total} = (\\frac{24.551832 MJ}{0.09}) = 272.7981\\overline{3} MJ \\approx 272.798 MJ$ I will need 273MJ per pour; therefore, if the OSMF pour rate is one every thirty minutes, then we need 546 MJ per hour or 151 kJ per second.

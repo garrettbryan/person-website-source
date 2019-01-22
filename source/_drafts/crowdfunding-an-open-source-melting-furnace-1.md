@@ -1,0 +1,13 @@
+---
+title: Crowdfunding an open source melting furnace
+tags:
+  - crowdfunding
+  - furnace
+  - open source
+url: 361.html
+id: 361
+categories:
+  - Metal Casting
+---
+
+After many years of on again off again work on my foundry, do to work, moving, fathering a baby girl, etc. I realized that many people have the same desire to cast their 3D prints into metal but don't have the time to engineer and build a casting system. All my previous attempts were more about trial and error, than creating a safe, simple, and efficient casting system. Many of my previous furnaces were bodged together lift out furnaces, requiring lift-out tongs and a pour shank. They were unsafe, crude, and inefficient. I've noticed that many others online also have the same issues. We all are attempting to engineer a solution starting with very little practical or theoretical knowledge of furnace design. This is something I want to change. An open source melting furnace (OSMF) should minimize the use of specialized materials, tools, and construction techniques, but should be designed to be easily upgraded, with the procurement of new tools, and especially with the ability to cast metal parts. For example, one upgrade might be a heat exchanger. If any of you have stood next to an open furnace melting steel in a t shirt, you know the visceral sensation of how dangerous melting metal can be.  Now that I'm a father of a little girl, safety is now my number one concern. An OSMF should minimize exposure to the hot crucible and molten metal throughout all stages of the casting process; therefore, the OSMF should be of the tilting type, whereby, the crucible is secured within the tilting furnace, and the molten metal passes through a pour spout directly into the mold. If we are solely using our 3D printer to create the majority of our patterns, then that provides some constraints to our melting furnace. The majority of our patterns will be contained to the size of our print bed; therefore, the maximum size for an average 3D printer is 20cm in the x and y axes, and 10cm for the z axis, but doubling the z axis, allowing for the cope and drag we end up with 20cm also in the z axis, for a total volume of 8000cm^3. The OSMF should be capable of pouring into sand molds and investment molds. [Sand casting](http://en.wikipedia.org/wiki/Sand_casting "sand casting") requires a few more specialized tools than [investment casting](http://en.wikipedia.org/wiki/Investment_casting "investment casting"), but doesn't damage the 3D printed pattern. Also, procurement of crucibles can be rather expensive, so another criteria could be to use ikea flower pots for low  melting point alloys.
