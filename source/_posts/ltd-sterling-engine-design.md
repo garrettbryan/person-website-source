@@ -1,12 +1,19 @@
 ---
-title: LTD Sterling engine design.
-url: 635.html
-id: 635
+title: LTD Sterling Engine Design
 categories:
-  - Uncategorized
+  - Stirling Engine
 date: 2014-08-07 09:58:40
 tags:
+  - Stirling Engine
 cover: stirling_engine_quarter.jpg
 ---
 
-I finished this design last summer, but with my move to Raleigh, I haven't had a chance to cast it yet. Here are some pictures of my SketchUp design for my Type One LTD Stirling Engine. I intend to investment cast each piece. \[gallery type="slideshow" ids="639,641,640,638,637,636"\]
+I recently finished a model for a low-temperature differential stirling engine.
+
+<p>{% asset_img castings.jpg  700 400 'Large Print - Failed' %}</p>
+<p>{% asset_img stirling_engine.jpg  700 400 'Large Print - Failed' %}</p>
+<p>{% asset_img stirling_engine_front.jpg  700 400 'Large Print - Failed' %}</p>
+<p>{% asset_img stirling_engine_quarter.jpg  700 400 'Large Print - Failed' %}</p>
+<p>{% asset_img stirling_engine_side.jpg  700 400 'Large Print - Failed' %}</p>
+<p>{% asset_img stirling_engine_top.jpg  700 400 'Large Print - Failed' %}</p>
+
