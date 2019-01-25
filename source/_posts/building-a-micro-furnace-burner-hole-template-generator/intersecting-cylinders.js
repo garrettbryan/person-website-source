@@ -46,6 +46,13 @@
         return Number.isNaN(o.x) ? Infinity : o.x; 
       }, this));
        
+      this.maxY = Math.max.apply(Math, this.CylinderMapping.map(function(pt) {
+        return Number.isNaN(pt.y) ? -Infinity : pt.y; 
+      }, this));
+      this.maxYindex = this.CylinderMapping.map(function(pt) {
+        return Number.isNaN(pt.y) ? -Infinity : pt.y; 
+      }, this).indexOf(this.maxY)
+
       switch (this.units) {
         case 'cm':
         this.scale = document.getElementById('canvas').offsetWidth/ 27.94;
@@ -54,13 +61,11 @@
         this.scale = document.getElementById('canvas').offsetWidth/ 11;
         break;
         case 'fit':
-        this.scale = (document.getElementById('canvas').offsetWidth / (this.arclengthmax-this.arclengthmin));
+        this.scale = Math.min(
+          document.getElementById('canvas').offsetWidth / (this.arclengthmax-this.arclengthmin),
+          document.getElementById('canvas').offsetHeight / (this.maxY*2));
         break;
       }
-    
-      this.maxY = this.scale * Math.max.apply(Math, this.CylinderMapping.map(function(o) {
-        return Number.isNaN(o.y) ? -Infinity : o.y; 
-      }, this));
 
     }
     
@@ -84,13 +89,33 @@
       ctx.stroke();
 
       ctx.beginPath();
-      ctx.moveTo(0, this.maxY);
-      ctx.lineTo(this.CylinderMapping[this.CylinderMapping.length-1].x,this.maxY);
+      ctx.moveTo(0, this.maxY * this.scale);
+      ctx.lineTo(this.CylinderMapping[this.CylinderMapping.length-1].x,this.maxY  * this.scale);
       ctx.stroke();
 
       ctx.beginPath();
-      ctx.moveTo(0, -this.maxY);
-      ctx.lineTo(this.CylinderMapping[this.CylinderMapping.length-1].x,-this.maxY);
+      ctx.moveTo(0, -this.maxY * this.scale);
+      ctx.lineTo(this.CylinderMapping[this.CylinderMapping.length-1].x,-this.maxY  * this.scale);
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.moveTo(this.CylinderMapping[this.maxYindex].x, this.maxY * this.scale);
+      ctx.lineTo(this.CylinderMapping[this.maxYindex].x, -this.maxY * this.scale);
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.moveTo(this.CylinderMapping[0].x, this.maxY * this.scale);
+      ctx.lineTo(this.CylinderMapping[0].x, -this.maxY * this.scale);
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.moveTo(this.CylinderMapping[this.CylinderMapping.length-1].x, this.maxY * this.scale);
+      ctx.lineTo(this.CylinderMapping[this.CylinderMapping.length-1].x,-this.maxY  * this.scale);
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.moveTo(this.CylinderMapping[0].x, this.CylinderMapping[0].y);
+      ctx.lineTo(this.CylinderMapping[this.CylinderMapping.length-1].x,this.CylinderMapping[this.CylinderMapping.length-1].y);
       ctx.stroke();
 
       console.log(this);
