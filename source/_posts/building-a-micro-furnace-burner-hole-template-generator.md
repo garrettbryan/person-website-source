@@ -28,7 +28,7 @@ This is the follow up post to building a micro furnace, describing how to make t
   <input type="number" name="number" id="intervals" value="200" min="20"><br>
   <button type="button" id="render">Render</button>
   <button type="button" id="clear">Clear</button>
-  <button type="button" id="Print">Print</button>
+  <button type="button" id="print">Print</button>
 </form>
 
 {% raw %}

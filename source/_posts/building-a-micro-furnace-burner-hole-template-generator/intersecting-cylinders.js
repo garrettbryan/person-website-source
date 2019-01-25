@@ -15,6 +15,7 @@
 
     $('#render').click(getIntersection);
     $('#clear').click(clear);
+    $('#print').click(print);
 
       // do your drawing stuff here
     var Intersection = function(c1dtemp, c2dtemp, id, intervals, units){
@@ -150,6 +151,13 @@
     function clear(e) {
       ctx.clearRect(0, -canvas.offsetHeight/2, canvas.offsetWidth, canvas.offsetHeight*2);
     }
+
+    function print(e) {
+      var img = new Image(); 
+      img.src = canvas.toDataURL();
+      document.body.appendChild(img);
+    }
+
   }
 
   resizeCanvas();
