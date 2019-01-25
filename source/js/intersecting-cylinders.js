@@ -99,11 +99,6 @@
       ctx.stroke();
 
       ctx.beginPath();
-      ctx.moveTo(this.CylinderMapping[this.maxYindex].x, this.maxY * this.scale);
-      ctx.lineTo(this.CylinderMapping[this.maxYindex].x, -this.maxY * this.scale);
-      ctx.stroke();
-
-      ctx.beginPath();
       ctx.moveTo(this.CylinderMapping[0].x, this.maxY * this.scale);
       ctx.lineTo(this.CylinderMapping[0].x, -this.maxY * this.scale);
       ctx.stroke();
@@ -113,9 +108,16 @@
       ctx.lineTo(this.CylinderMapping[this.CylinderMapping.length-1].x,-this.maxY  * this.scale);
       ctx.stroke();
 
+      //Vertical Line
+      ctx.beginPath();
+      ctx.moveTo(this.CylinderMapping[this.maxYindex].x, document.getElementById('canvas').offsetHeight);
+      ctx.lineTo(this.CylinderMapping[this.maxYindex].x, -document.getElementById('canvas').offsetHeight);
+      ctx.stroke();
+      
+      //Horizontal line
       ctx.beginPath();
       ctx.moveTo(this.CylinderMapping[0].x, this.CylinderMapping[0].y);
-      ctx.lineTo(this.CylinderMapping[this.CylinderMapping.length-1].x,this.CylinderMapping[this.CylinderMapping.length-1].y);
+      ctx.lineTo(document.getElementById('canvas').offsetWidth,this.CylinderMapping[this.CylinderMapping.length-1].y);
       ctx.stroke();
 
       console.log(this);

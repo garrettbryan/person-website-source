@@ -1,5 +1,5 @@
 ---
-title: Building a "Micro" Furnace
+title: Building a Small Foundry Furnace
 tags:
   - Foundry
   - metal casting
