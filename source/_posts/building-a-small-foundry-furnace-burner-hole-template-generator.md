@@ -30,7 +30,7 @@ Here is the script I used to create the template to cut the burner hole in the f
 _____
 #### Cylinders Intersection Template Generator
 {% raw %}
-  <link id="custom-css" rel="stylesheet" type="text/css" href="../css/intersecting-cylinders.css"></link>
+  <link id="custom-css" rel="stylesheet" type="text/css" href="intersecting-cylinders.css"></link>
 
   <form>
     <label for="cylinder1">Cylinder 1 Diameter</label>
@@ -56,7 +56,7 @@ _____
       <canvas id="canvas"></canvas>
     </div> 
   </div>
-  <script src="../js/intersecting-cylinders.js" defer></script>
+  <script src="intersecting-cylinders.js" defer></script>
 
 {% endraw %}
 
