@@ -1,5 +1,5 @@
 ---
-title: 'Building a Small Furnace: Burner Hole Template Generator'
+title: 'Building a Small Furnace - Burner Hole Template Generator'
 categories:
   - DIY Metal Founding
 date: 2012-07-23 10:55:27
