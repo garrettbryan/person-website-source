@@ -3,8 +3,18 @@ title: About Me
 date: 2014-10-18 12:30:23
 ---
 
-<h1> BUilding my World with Code and Web Technologies </h1>
+<h1> Garrett Bryan </h1>
+<h5>I'm a solutions focused web developer, with project management, data analytics, and operations experience.</h5>
 
-I'm a web developer, with project management, data analytics, and operations experience.  My experience in both large and small companies has made me solutions focused. I deliver projects on or before deadlines. I understand the code that I'm working with. I always want to know the high level and the details. Knowing the code well makes me more efficient discussing with, and gathering requirements from stakeholders. I'm always super pumped to be coding and building things.
+<h4>My recent freelance experiences include:</h4>
+* Completed a single sign-on app using Nodejs and JWT
+* Customizing and administering a Nodebb forum
+* Building a landscape supplier materials estimation app
 
-When I'm not working, I spend lots of time with my two young daughters. You can find us at the kids' museums, hiking, soccer, swimming, or music 
+<h4>My experience with Teksystems at Cisco allowed me to:</h4>
+* Develop a content reuse system for proposal material
+* Develop Chat-bots backed by IBM's Watson
+* Analyze user data and prep slides for executive presentations
+* Develop Chrome browser extensions
+* Improve writer processes
+* Automate content publishing and QA tools

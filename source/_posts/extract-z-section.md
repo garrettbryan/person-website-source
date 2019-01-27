@@ -12,10 +12,9 @@ date: 2012-10-07 22:21:21
 cover: photo-1.jpg
 
 ---
-
-<p>{% asset_img photo-4.jpg 700 400 'Large Print - Failed' %}</p>
-
 My latest print failed. I figured that it was time to write a script to split a gcode file and translate the pickup section in the Z direction to the print bed.
+<!-- more -->
+<p>{% asset_img photo-4.jpg 700 400 'Large Print - Failed' %}</p>
 
 For those who are interested, This print is a pattern for a cope mount for a pin bushing for a casting flask. It comes from page 50 in the book [Metal Casting: A Sand Casting Manual for the Small Foundry](http://stephenchastain.com/store/index.php?main_page=product_info&cPath=1&products_id=6)
 
