@@ -83,6 +83,6 @@ theme: diaspora
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/garrettbryan/garrettbryan.github.io.git
+  repo: git@github.com:garrettbryan/garrettbryan.github.io.git
   branch: master
   message: 
