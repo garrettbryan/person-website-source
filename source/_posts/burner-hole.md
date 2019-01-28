@@ -56,7 +56,7 @@ _____
       <canvas id="canvas"></canvas>
     </div> 
   </div>
-  <script src="intersecting-cylinders.js" defer></script>
+  <script src="intersecting-cylinders.js"></script>
 
 {% endraw %}
 
