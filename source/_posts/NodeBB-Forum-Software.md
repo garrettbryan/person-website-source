@@ -8,7 +8,7 @@ tags:
 cover: nodebb.png
 ---
 
-I recently discovered Nodebb, open-source forum software. I recently discovered it, and so far the community is great. I'm looking forward to adopting it for some of my side projects.
+I recently discovered Nodebb, open-source forum software, and so far the community is great. I'm looking forward to adopting it for some of my side projects.
 <p>{% asset_img nodebb.png  700 400 'NodeBB screenshot' %}</p>
 
 
