@@ -83,16 +83,7 @@ theme: diaspora
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-<<<<<<< HEAD
   type: git
   repo: git@github.com:garrettbryan/garrettbryan.github.io.git
   branch: master
   message: 
-||||||| merged common ancestors
-  type:
-=======
-  type: git
-  repo: https://github.com/garrettbryan/garrettbryan.github.io.git
-  branch: published
-  message: 
->>>>>>> master
